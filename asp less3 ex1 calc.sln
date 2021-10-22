@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asp less3 ex1 calc", "asp less3 ex1 calc.csproj", "{832D6873-88A8-4782-9769-3180FF5C1915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asp less3", "asp less3.csproj", "{832D6873-88A8-4782-9769-3180FF5C1915}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

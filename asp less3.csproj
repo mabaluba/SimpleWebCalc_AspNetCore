@@ -4,9 +4,4 @@
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>asp_less3_ex1_calc</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
-  </ItemGroup>
-
 </Project>
