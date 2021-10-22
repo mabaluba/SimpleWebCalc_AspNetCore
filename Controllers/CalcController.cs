@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace asp_less3_ex1_calc.Controllers
 {
@@ -42,7 +40,6 @@ namespace asp_less3_ex1_calc.Controllers
             var userIP = HttpContext.Connection.LocalIpAddress;
             var userIP1 = HttpContext.Connection.RemoteIpAddress;
             var userAgent = Request.Headers.Where((i,k)=>i.Key=="User-Agent").Select(i=>i.Value).FirstOrDefault();
-            //Console.WriteLine(userAgent);
             ViewBag.UserAgent = userAgent;
             ViewBag.U1 = userIP;
             ViewBag.U2 = userIP1;
