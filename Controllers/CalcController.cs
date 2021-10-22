@@ -8,7 +8,7 @@ namespace asp_less3_ex1_calc.Controllers
 {
     public class CalcController : Controller
     {
-        public IActionResult Index(int x=0, int y=0, string sub=null)
+        public IActionResult Index(double x=0, double y=0, string sub=null)
         {
             switch (sub)
             {
@@ -25,8 +25,7 @@ namespace asp_less3_ex1_calc.Controllers
                     {
                         if (y == 0)
                         {
-                            ViewBag.Result = null;
-                            ViewBag.Commit = "На ноль делить нельзя!";
+                            ViewBag.Result = "На ноль делить нельзя!";
                             break;
                         }
                         ViewBag.Result = x / y;
