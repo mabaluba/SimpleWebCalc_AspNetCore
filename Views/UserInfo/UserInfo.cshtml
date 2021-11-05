@@ -1,0 +1,28 @@
+﻿<style type="text/css">
+   TABLE {
+    border-collapse: collapse; 
+    border: solid thin
+   }
+   TD {
+    border: 1px solid black;
+    padding: 3px;
+   }
+  </style>
+
+<table>
+    <tr>
+        <td style="font-weight:bold;">User Agent</td>
+        <td>@ViewBag.UserAgent</td>
+    </tr>
+    <tr>
+        <td style="font-weight:bold">User Ip AddressFamily</td>
+        <td>@ViewBag.U1</td>
+    </tr>
+    <tr>
+        <td><b>IPv4 format</b></td>
+        <td>@ViewBag.U2</td>
+    </tr>
+</table>
+
+<p><a asp-controller="Calc" asp-action="Index">Back Home</a></p>
+ 
