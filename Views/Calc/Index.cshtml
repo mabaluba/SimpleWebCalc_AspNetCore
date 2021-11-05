@@ -1,6 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+
+@*<!DOCTYPE html>
 <html>
-<body>
+<body>*@
+<div>
     <form action="">
         <label>Calculator</label><br>
         <p>X: <input type="number" name="x"></p>
@@ -11,8 +17,10 @@
         <input type="submit" value=" * " name="sub">
         <input type="submit" value=" / " name="sub">
     </form>
-    <p><a asp-controller="Products" asp-action="Show">View Products</a></p>
-    <p><a asp-controller="UserInfo" asp-action="UserInfo">View UserInfo</a></p>
+    @*<p><a asp-controller="Products" asp-action="Show">View Products</a></p>
+    <p><a asp-controller="UserInfo" asp-action="UserInfo">View UserInfo</a></p>*@
     <h4><partial name="_DateTime"/></h4>
-</body>
-</html>
+</div>
+    
+@*</body>
+</html>*@

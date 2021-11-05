@@ -1,5 +1,10 @@
 ﻿@model List<asp_less3_ex1_calc.Model.TreeProducts>;
 
+@{
+    ViewData["Title"] = "Products";
+}
+
+
 @foreach (var item in @Model)
 {
     <p>@item.ToString()</p>
