@@ -2,9 +2,10 @@
 {
     public class TreeProducts
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public double Price { get; init; }
         public string Name { get; init; }
+        public TreeProducts() { }
         public TreeProducts(int id, double price, string name)
         {
             Id = id;
@@ -13,7 +14,7 @@
         }
         public override string ToString()
         {
-            return $"ID: {Id} - name: {Name} - price: {Price}";
+            return $"Id: {Id} - Name: {Name} - Price: {Price}";
         }
     }
 }

@@ -1,0 +1,30 @@
+﻿@model asp_less3_ex1_calc.Model.TreeProducts
+
+@{
+    ViewData["Title"] = "Bind";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Bind</title>
+</head>
+<body>
+    <form action="/Binding/Bind " method="post">
+     <label>Id</label>
+     <input type="number" name="Id" />
+     <br />
+     <label>Name</label>
+     <input name="Name" />
+     <br />
+     <label>Price</label>
+     <input type="number" name="Price" />
+     <br />
+     <button type="submit">Create</button>
+    </form>
+    <p>@Model</p>
+</body>
+
+</html>

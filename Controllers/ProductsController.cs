@@ -10,11 +10,11 @@ namespace asp_less3_ex1_calc.Controllers
         {
             List<TreeProducts> products = new()
             {
-                new ( 1, 127, "Oak" ),
-                new ( 2, 127, "Cedar" ),
-                new ( 3, 127, "Walnut" )
+                new(1, 127, "Oak"),
+                new(2, 127, "Cedar"),
+                new(3, 127, "Walnut")
             };
-           
+
             return View(products);
         }
     }

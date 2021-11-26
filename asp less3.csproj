@@ -4,4 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>asp_less3_ex1_calc</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Components\" />
+  </ItemGroup>
 </Project>

@@ -4,9 +4,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace asp_less3_ex1_calc
 {
@@ -31,7 +28,7 @@ namespace asp_less3_ex1_calc
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute("Calc", "{controller=Calc}/{action=Index}");
+                endpoints.MapControllerRoute("Calc", "{controller=Calc}/{action=Index}/{id?}");
             });
         }
     }
